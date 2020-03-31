@@ -35,6 +35,6 @@ fetch(zohoURL+"?authtoken="+ authToken + "&criteria=" + criteria + "&raw=true", 
 
   //var iframe = document.getElementsByID('workDriveFrame');
     
-    var iframe = document.getElementById('workDriveFrame');
+    var iframe = document.getElementsById('workDriveFrame');
     var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
     innerDoc.getElementsByClassName("ui menu secondary fluid").style.display = "none";
